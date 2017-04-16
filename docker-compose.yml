@@ -1,7 +1,7 @@
 version: '2'
 services:
   db:
-    images: mysql:5.7
+    image: mysql:5.7
     enviroment:
       - MYSQL_ROOT_PASSWORD=password
   web:
